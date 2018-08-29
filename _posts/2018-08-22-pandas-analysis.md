@@ -8,6 +8,8 @@ comments: true
 # 告警业务分析
 ![pandas](https://pandas.pydata.org/_static/pandas_logo.png)
 - [Pandas](https://pandas.pydata.org):强大的Python数据分析工具。
+
+
 ## 题目内容
 ### 题干
 本试题为告警处理方向的试题。选手应根据试题提供的行政区域的资源信息，基站资源信息，告警信息，对基站的中断情况进行全面的分析。并在此基础上，分析基站可用情况，衍生大面积断站的预警信息，甚至大面积断站严重告警，分析基站可用率情况。
