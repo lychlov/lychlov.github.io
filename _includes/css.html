@@ -1,0 +1,46 @@
+
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+        <!-- FontAwesome icons -->
+        <!--<link rel="stylesheet" href="https://use.fontawesome.com/74dfc6cf47.css">-->
+
+        <!-- Core BootStrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- Material Design CSS -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/static/css/bootstrap-material-design.min.css">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/static/css/syntax.css">
+
+        <!-- Custom CSS -->        
+        <link rel="stylesheet" href="{{ site.baseurl }}/static/css/thickbox.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/static/css/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/static/css/projects.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/static/css/default.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <script type="text/javascript">
+          //loadingImage is relative to project dir
+          var tb_pathToImage = "{{ site.baseurl }}/static/img/loadingAnimation.gif";
+        </script>
+        <style>
+                table {
+                    width: 100%; /*表格宽度*/
+                    max-width: 65em; /*表格最大宽度，避免表格过宽*/
+                    border: 1px solid #dedede; /*表格外边框设置*/
+                    margin: 15px auto; /*外边距*/
+                    border-collapse: collapse; /*使用单一线条的边框*/
+                    empty-cells: show; /*单元格无内容依旧绘制边框*/
+                }
+                table th,
+                table td {
+                    height: 35px; /*统一每一行的默认高度*/
+                    border: 1px solid #dedede; /*内部边框样式*/
+                    padding: 0 10px; /*内边距*/
+                }
+                table th {
+                    font-weight: bold; /*加粗*/
+                    text-align: center !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
+                    background: rgba(158,188,226,0.2); /*背景色*/
+                }
+        </style>

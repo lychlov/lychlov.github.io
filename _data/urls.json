@@ -1,0 +1,23 @@
+[
+  {
+    "text": "主页",
+    "url": "/",
+    "icon": "fas fa-home",
+    "layout": "post"
+  },
+  {
+    "text": "关于",
+    "url": "/about.html",
+    "icon": "far fa-address-card"
+  },
+  {
+    "text": "分类",
+    "url": "/categories.html",
+    "icon": "fas fa-book-open"
+  },
+  {
+    "text": "集锦",
+    "url": "/collections.html",
+    "icon": "fas fa-toolbox"
+  }
+]
