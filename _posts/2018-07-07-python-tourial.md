@@ -60,8 +60,8 @@ print("Hello World")
 
 1. 版本：Python2 VS Python3？  
     - Python社区官方表示Python2将在2020年停止维护，大量的第三方包也逐渐迁移至Python3.
-    - 对于初学者，差别不大，可以自由选择。
-    - Python3.X 源码文件默认使用utf-8编码。
+    - 对于初学者，差别不大，但推荐使用Python3。
+    - Python3.X 源码文件默认使用utf-8编码，对中文支持更好。
 2. 解释器：[Anaconda](https://www.anaconda.com/download/) VS [官方原生](https://www.python.org/)
     - Anaconda提供大量常用三方包，图形化管理三方包;原生需要手动使用pip命令行安装
     - Anaconda便于管理不同的开发环境，提供相互隔离的开发环境，避免各版本间互相干扰
@@ -249,9 +249,14 @@ image = get_file_content('source.jpg')
 """ 以本地图片为识别目标，调用通用文字识别 """
 result = client.basicGeneral(image, options=options)
 {% endhighlight %}
-{% highlight json %}
-{'log_id': 6131613080778703762, 'words_result_num': 2, 'words_result': [{'words': 'A PCU2-E'}, {'words': 'S / N : 1M111600597'}]}
-{% endhighlight %}
+``` json
+{'log_id': 6131613080778703762,
+'words_result_num': 2,
+'words_result': [
+    {'words': 'A PCU2-E'},
+    {'words': 'S / N : 1M111600597'}
+    ]}
+```
 - 应用场景：
     - 现场运维人员使用微信发来一张设备串码图，自动识别设备信息，关联呈现设备安装手册，注意事项等，进一步将此次安装结果登记备案。
     - 建立设备生命周期档案，对设备厂家、类型、用途等维度进行分析，甚至预测设备寿命等。
