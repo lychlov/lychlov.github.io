@@ -63,15 +63,19 @@ Kettle中有两种脚本文件，transformation和job
 
 ### 同类产品对比
 ![kettle-compare](/assets/kettle/kettle-compare.png)
+
 ![kettle-compare2](/assets/kettle/kettle-compare2.png)
 
 ### 基本概念
+
 ![concept](/assets/kettle/concept.png)
 
 1. Transformation（转换）
 Transformation（转换）是由一系列被称之为step（步骤）的逻辑工作通过hop（节点连接）连接的网络。
 转换本质上是数据流。下图是一个转换的例子，这个转换从文本文件中读取数据，过滤，然后排序，最后将数据加载到数据库。本质上，转换是一组图形化的数据转换配置的逻辑结构。
+
 ![trans](/assets/kettle/trans.png)
+
 1.1 Step(步骤)
 Steps（步骤）是转换的建筑模块，比如一个文本文件输入或者一个表输出就是一个步骤。
 在PDI中有140多个步骤，它们按不同功能进行分类，比如输入类、输出类、脚本类等。
@@ -92,7 +96,9 @@ Hops（节点连接）是数据的通道，用于连接两个步骤，使得元�
 2. Job（工作）
 Jobs（工作）是基于工作流模型的，协调数据源、执行过程和相关依赖性的ETL活动。
 将功能性和实体过程聚合在了一起。下图是一个Job的例子。
+
 ![job](/assets/kettle/job.png)
+
 一个工作中展示的任务有从FTP获取文件、核查一个必须存在的数据库表是否存在、执行一个转换、发送邮件通知一个转换中的错误等。最终工作的结果可能是数据仓库的更新等。
 
 工作由工作节点连接、工作实体和工作设置组成。
