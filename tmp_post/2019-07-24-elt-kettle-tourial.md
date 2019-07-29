@@ -24,17 +24,20 @@ ETL负责将分布的、异构数据源中的数据如关系数据、平面数�
 * 图形化的界面操作十分方便，使用技术门槛低。
 * 处理海量数据速度快、流程更清晰等，过程可视化监控。
 
+在网络运维的自研过程中，我们常常面对的是多个系统的数据源。
+面对的是“4+1”网管系统和各种辅助系统，这些数据源厂家不同、架构各异、百花齐放、眼花缭乱
+
 ## Kettle介绍
 Kettle是常用的ETL工具之一，纯Java编写的开源工具，绿色免安装，可以在Window、Linux、Unix上运行，数据抽取高效稳定。
 Kettle中文直译为水壶，该项目的主程序员MATT 希望把各种数据放到一个水壶里，然后以一种指定的格式流出。
-* chef/spoon（勺子）：允许你通过图形界面来设计ETL转换过程（Transformation）。
-* kitchen（厨房）：允许你批量使用由Chef设计的任务 (例如使用一个时间调度器)。KITCHEN也是一个后台运行的程序
-* pan（平底锅）：允许你批量运行由Spoon设计的ETL转换 (例如使用一个时间调度器)。Pan是一个后台执行的程序，没有图形界面
-Kettle这个ETL工具集，它允许你管理来自不同数据库的数据，通过提供一个图形化的用户环境来描述你想做什么，而不是你想怎么做。
-Kettle中有两种脚本文件，transformation和job，transformation完成针对数据的基础转换，job则完成整个工作流的控制。
-Kettle中有两种脚本文件，transformation和job，transformation完成针对数据的基础转换，
+* spoon（勺子）：允许你通过图形界面来设计ETL逻辑（Transformation/Job）。
+* kitchen（厨房）：允许你批量运行任务 。Kitchen也是一个后台运行的程序。
+* pan（平底锅）：允许你批量运行由Spoon设计的ETL转换 。Pan是一个后台执行的程序，没有图形界面。
+Kettle中有两种脚本文件，transformation和job
+* transformation完成针对数据的基础转换，
 好比工厂里的生产流水线，每个组件相当于一个员工；
-job则完成整个工作流的控制，好比工厂里的管理。如果用记事本打开文件可发现转换和作业都是xml类型文件。
+* job则完成整个工作流的控制，好比工厂里的管理。
+* 如果用记事本打开文件可发现转换和作业都是xml类型文件。
 
 [官方网址：https://community.hitachivantara.com/docs/DOC-1009855](https://community.hitachivantara.com/docs/DOC-1009855)
 
