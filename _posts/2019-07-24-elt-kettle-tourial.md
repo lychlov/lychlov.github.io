@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ETL工具Kettle基础
-date:   2018-07-07 14:10:51
+date:   2019-07-20 14:10:51
 categories: ETL,Kettle
 comments: true
 ---
@@ -131,8 +131,9 @@ Jobs（工作）是基于工作流模型的，协调数据源、执行过程和�
     ** 正则表达式
     ** Java代码
 4. Job常用功能
-    * Ping 主机
-    * 写日志
+
+    - Ping 主机
+    - 写日志
     * 发送邮件
     * 比较文件夹、文件
     * 创建、复制、移动、删除、压缩文件
