@@ -106,12 +106,14 @@ Jobs（工作）是基于工作流模型的，协调数据源、执行过程和�
 
 #### Transformation常用功能
 * 多样化数据输入
-    * 基本的文本文件
-    * Access、Excel、XML、Properties文件格式
-    * 关系型数据库（Oracle、DB2、Microsoft SQL Server、Microsoft Access、MySQL等）
-    * Big Data（hadoop、Hbase等）
-    * 系统信息，如文件名称、系统时间等
+    - 基本的文本文件
+    - Access、Excel、XML、Properties文件格式
+    - 关系型数据库（Oracle、DB2、Microsoft SQL Server、Microsoft Access、MySQL等）
+    - Big Data（hadoop、Hbase等）
+    - 系统信息，如文件名称、系统时间等
+
 * 多种查询
+
     * 调用数据库存储过程
     * 基本的数据库查询
     * 判断表以及列、操作系统文件是否存在
@@ -133,18 +135,18 @@ Jobs（工作）是基于工作流模型的，协调数据源、执行过程和�
     * Java代码
 
 #### Job常用功能
-    * Ping 主机
-    * 写日志
-    * 发送邮件
-    * 比较文件夹、文件
-    * 创建、复制、移动、删除、压缩文件
-    * 从HTTP获取或者上传文件
-    * 操作延迟等待
-    * 判断文件是否存在
-    * 执行JavaScript、SQL、Shell脚本
-    * 支持安全FTP获取、上传文件
-    * 删除远程文件
-    * 支持SSH2上传下载
+* Ping 主机
+* 写日志
+* 发送邮件
+* 比较文件夹、文件
+* 创建、复制、移动、删除、压缩文件
+* 从HTTP获取或者上传文件
+* 操作延迟等待
+* 判断文件是否存在
+* 执行JavaScript、SQL、Shell脚本
+* 支持安全FTP获取、上传文件
+* 删除远程文件
+* 支持SSH2上传下载
 
 ## 在工作中的应用——实战案例
 Kettle在网络运维的使用场景非常广泛，涉及到数据采集的都可以使用。各大三方厂商在实现采集任务时也都在使用ETL工具。
