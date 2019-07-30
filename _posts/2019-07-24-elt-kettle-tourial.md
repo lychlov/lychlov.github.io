@@ -46,7 +46,7 @@ Kettle中有两种脚本文件，transformation和job
 [官方网址：https://community.hitachivantara.com/docs/DOC-1009855](https://community.hitachivantara.com/docs/DOC-1009855)
 
 ### Kettle特性
-#### "免费开源的基于java的企业级ETL工具，功能强大简单易用，无可抗拒"
+>"免费开源的基于java的企业级ETL工具，功能强大简单易用，无可抗拒"
 * 免费开源：基于java的免费开源的软件，对商业用户也没有限制
 * 易配置：可以在Window、Linux、Unix上运行，绿色无需安装，数据抽取高效稳定
 * 异构数据源：ETL工具集，它允许你管理来自不同数据库、不同的数据
@@ -162,22 +162,45 @@ Kettle在网络运维的使用场景非常广泛，涉及到数据采集的都�
 - 文件名要求：VI_%A_%Y%m%d%H%M_%E.csv，如VI_ha_201907211400_000.csv
 - 数据筛选：筛选在uri字段中包含“.letv.com”、“.le.com”、“.youku.com”、“msg.71.am” 、“msg.71.am”关键字的所有记录，其余数据抛弃
 - 字段要求：
-字段名|说明|字段类型
-:-:|:-:|:-:
-st1|开始时间戳|整数
-pts|开始时间字符串|浮点
-st2|结束时间戳|整数
-pte|结束时间字符串|浮点
-ms|手机号码|整数
-tac|TA code|整数
-eci|小区编号|整数
-sui|上行流量|整数
-sdi|下行流量|整数
-etype|事务类型|整数
-host|HOST|字符串
-uri|URl|字符串
-city|城市区号|字符串
-sgw|SGW/GGSN IP Add|字符串
-dip|App Server IP_IPv4|字符串
 
-## 扩展知识-Apache Nifi
+|字段名|说明|字段类型
+|:---:|:--------:|:------:
+|st1|开始时间戳|整数
+|pts|开始时间字符串|浮点
+|st2|结束时间戳|整数
+|pte|结束时间字符串|浮点
+|ms|手机号码|整数
+|tac|TA code|整数
+|eci|小区编号|整数
+|sui|上行流量|整数
+|sdi|下行流量|整数
+|etype|事务类型|整数
+|host|HOST|字符串
+|uri|URl|字符串
+|city|城市区号|字符串
+|sgw|SGW/GGSN IP Add|字符串
+|dip|App Server IP_IPv4|字符串
+
+#### 系统环境
+* 厂家做不了
+    - 没有冗余机器处理
+    - 当前处理逻辑不支持对原始XDR的裁剪筛选和分发
+* 数据共享层有多台FTP实现FTP共享
+    - 数据留存6小时
+    - 分布在8台主机上
+* 标准XDR数据
+    - 单个文件250MB
+    - 全部字段、全量记录
+* 安全困境
+    - 数据安全传输
+    - 敏感字段脱敏
+
+#### 解决方案
+
+
+#### 实现方法
+
+#### 随堂练习
+
+
+## 扩展知识-Apache *Nifi*
