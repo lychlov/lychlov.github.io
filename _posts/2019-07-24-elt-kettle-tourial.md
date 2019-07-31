@@ -30,6 +30,8 @@ ETL负责将分布的、异构数据源中的数据如关系数据、平面数�
 手动提取操作费事费力，机械重复。
 需要使用ETL工具自动、可视的完成。
 
+![bi](/assets/kettle/mengbi.gif)
+
 ## Kettle介绍
 Kettle（PDI）是常用的ETL工具之一，纯Java编写的开源工具，绿色免安装，可以在Window、Linux、Unix上运行，数据抽取高效稳定。
 Kettle中文直译为水壶，该项目的主程序员MATT 希望把各种数据放到一个水壶里，然后以一种指定的格式流出。
