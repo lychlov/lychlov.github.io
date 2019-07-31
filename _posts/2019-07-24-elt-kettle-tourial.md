@@ -201,5 +201,29 @@ Kettle在网络运维的使用场景非常广泛，涉及到数据采集的都�
     - 敏感字段脱敏
 
 #### 解决方案
+![solution](/assets/kettle/sol1.png)
+根据系统的现状，设计了两个Kettle任务，分别处理FTP文件下载和数据的筛选裁剪。
+
+* FTP下载
+
+![solution](/assets/kettle/ftp1.png)
+![solution](/assets/kettle/ftp2.png)
+![solution](/assets/kettle/ftp3.png)
+
+* 数据转换
+
+![solution](/assets/kettle/transformation.png)
+
+文件下载：[Job文件](/assets/kettle/docker-ftp-http.kjb)  [Tranformation文件](/assets/kettle/http-etl.ktr)
+
+### 随堂练习
+
+
+```
+运行FTP下载Job
+./kitchen.sh -file=/home/docker/kettle/docker-ftp-http.kjb
+运行文件处理Transformation
+./pan.sh -file=/home/docker/kettle/http-etl.ktr
+```
 
 ## 扩展知识-Apache Nifi
