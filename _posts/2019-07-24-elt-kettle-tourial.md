@@ -114,27 +114,39 @@ Jobs（工作）是基于工作流模型的，协调数据源、执行过程和�
     - Big Data（hadoop、Hbase等）
     - 系统信息，如文件名称、系统时间等
 
-* 多种查询
+![solution](/assets/kettle/input.png)
 
-    * 调用数据库存储过程
-    * 基本的数据库查询
-    * 判断表以及列、操作系统文件是否存在
-    * 从URL接收查询
-    * 使用Web服务查询信息
-    * 使用数据流中的值作为参数来执行一个数据库查询
-    * 流查询：从转换中其他流里查询值
+* 多种查询
+    - 调用数据库存储过程
+    - 基本的数据库查询
+    - 判断表以及列、操作系统文件是否存在
+    - 从URL接收查询
+    - 使用Web服务查询信息
+    - 使用数据流中的值作为参数来执行一个数据库查询
+    - 流查询：从转换中其他流里查询值
+
+![solution](/assets/kettle/query.png)
+
 * 转换
-    * 值映射、分组、去重、拆分字段、行列转换
-    * 复制行
+    - 值映射、分组、去重、拆分字段、行列转换
+    - 复制行
+
+![solution](/assets/kettle/trans-k.png)
+
 * 数据输出
     * 把数据写入到Excel
     * 把数据写入XML、CSV
     * 把数据写入数据库，全量、增量
+    
+![solution](/assets/kettle/output.png)
+
 * 支持脚本和代码
     * JS脚本
     * SQL脚本
     * 正则表达式
     * Java代码
+    
+![solution](/assets/kettle/script.png)
 
 #### Job常用功能
 * Ping 主机
@@ -150,6 +162,10 @@ Jobs（工作）是基于工作流模型的，协调数据源、执行过程和�
 * 删除远程文件
 * 支持SSH2上传下载
 
+![solution](/assets/kettle/job1.png)
+![solution](/assets/kettle/job2.png)
+![solution](/assets/kettle/job3.png)
+
 ## 在工作中的应用——实战案例
 Kettle在网络运维的使用场景非常广泛，涉及到数据采集的都可以使用。各大三方厂商在实现采集任务时也都在使用ETL工具。
 * OMC 性能、配置文件采集
@@ -157,6 +173,8 @@ Kettle在网络运维的使用场景非常广泛，涉及到数据采集的都�
 * 集团三费系统数据载入
 * 报表汇聚（魔改功能）
 * ...
+
+![](/assets/biaoyan.jpg){:height="150px" width="150px"}
 
 ### XDR数据采集、清洗、转存案例
 在2018年中，接到了一项实现集团性能管理应用市场Docker移植应用的工作。在实现某省自主研发的《视频端到端质量分析》
@@ -219,11 +237,11 @@ Kettle在网络运维的使用场景非常广泛，涉及到数据采集的都�
 ### 随堂练习
 
 
-```
+{% highlight shell %}
 运行FTP下载Job
 ./kitchen.sh -file=/home/docker/kettle/docker-ftp-http.kjb
 运行文件处理Transformation
 ./pan.sh -file=/home/docker/kettle/http-etl.ktr
-```
+{% endhighlight %}
 
 ## 扩展知识-Apache Nifi
