@@ -234,14 +234,25 @@ Kettle在网络运维的使用场景非常广泛，涉及到数据采集的都�
 
 文件下载：[Job文件](/assets/kettle/docker-ftp-http.kjb)  [Tranformation文件](/assets/kettle/http-etl.ktr)
 
-### 随堂练习
-
-
 {% highlight shell %}
 运行FTP下载Job
 ./kitchen.sh -file=/home/docker/kettle/docker-ftp-http.kjb
 运行文件处理Transformation
 ./pan.sh -file=/home/docker/kettle/http-etl.ktr
 {% endhighlight %}
+
+### 随堂练习
+#### 任务描述
+在课程资料中包含部分XDR原始文件，请使用Kettle对文件进行处理
+- 获取XDR文件并解压
+- 对XDR文件进行过滤，过滤条件：
+- 裁剪字段，保留字段：
+- 文件存储，文件名要求：
+- 标记文件生成，文件名要求：
+
+#### 任务解答
+文件下载：[解答文件](/assets/kettle/docker-ftp-http.kjb)
+
+
 
 ## 扩展知识-Apache Nifi
