@@ -291,6 +291,7 @@
       <name>START</name>
       <description />
       <type>SPECIAL</type>
+      <attributes />
       <start>Y</start>
       <dummy>N</dummy>
       <repeat>Y</repeat>
@@ -306,11 +307,13 @@
       <nr>0</nr>
       <xloc>224</xloc>
       <yloc>240</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>下载HTTP</name>
       <description />
       <type>FTPS_GET</type>
+      <attributes />
       <port>21</port>
       <servername>10.92.52.108</servername>
       <username>npo</username>
@@ -343,18 +346,21 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>352</xloc>
-      <yloc>224</yloc>
+      <xloc>368</xloc>
+      <yloc>240</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>成功</name>
       <description />
       <type>SUCCESS</type>
+      <attributes />
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>608</xloc>
-      <yloc>256</yloc>
+      <xloc>544</xloc>
+      <yloc>240</yloc>
+      <attributes_kjc />
     </entry>
   </entries>
   <hops>

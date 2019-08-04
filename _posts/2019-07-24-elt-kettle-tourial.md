@@ -5,7 +5,7 @@ date:   2019-07-20 14:10:51
 categories: ETL,Kettle
 comments: true
 ---
-# ETL工具——Kettle（PDI）教程
+# ETL工具——Kettle（PDI）基础知识和网络运维实战工具
 ![Kettle](https://community.hitachivantara.com/servlet/JiveServlet/showImage/102-1009855-24-19581/CommunityDataIntegration%28Trans%29.png)
 
 ## ETL概念

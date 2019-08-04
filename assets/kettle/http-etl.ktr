@@ -530,6 +530,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
+    <format />
     <encoding>UTF-8</encoding>
     <fields>
       <field>
@@ -1512,6 +1513,7 @@
         <trim_type>none</trim_type>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1520,8 +1522,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>624</xloc>
-      <yloc>384</yloc>
+      <xloc>560</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1549,6 +1551,7 @@
         <target_step>空操作 (什么也不做)</target_step>
       </case>
     </cases>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1557,8 +1560,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>368</xloc>
-      <yloc>192</yloc>
+      <xloc>336</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1584,8 +1587,10 @@
         <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1594,8 +1599,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>304</yloc>
+      <xloc>336</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1621,8 +1626,10 @@
         <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1658,8 +1665,10 @@
         <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1668,8 +1677,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
-      <yloc>368</yloc>
+      <xloc>560</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1695,8 +1704,10 @@
         <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1705,8 +1716,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>576</xloc>
-      <yloc>304</yloc>
+      <xloc>448</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1732,8 +1743,10 @@
         <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1742,8 +1755,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>779</xloc>
-      <yloc>326</yloc>
+      <xloc>672</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1769,8 +1782,10 @@
         <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1779,7 +1794,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>128</xloc>
+      <xloc>112</xloc>
       <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1806,8 +1821,10 @@
         <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1816,7 +1833,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1200</xloc>
+      <xloc>896</xloc>
       <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1847,7 +1864,6 @@
     <create_parent_folder>Y</create_parent_folder>
     <file>
       <name>file</name>
-      <is_command>N</is_command>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>Y</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -2045,6 +2061,7 @@
         <precision>-1</precision>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -2053,7 +2070,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1088</xloc>
+      <xloc>784</xloc>
       <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2084,7 +2101,6 @@
     <create_parent_folder>Y</create_parent_folder>
     <file>
       <name>file</name>
-      <is_command>N</is_command>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>Y</do_not_open_new_file_init>
       <extention>ctl</extention>
@@ -2114,6 +2130,7 @@
         <precision>-1</precision>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -2122,8 +2139,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1312</xloc>
-      <yloc>304</yloc>
+      <xloc>896</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2143,6 +2160,7 @@
     <includefiletype>N</includefiletype>
     <filetypefieldname />
     <addresultfilenames>N</addresultfilenames>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -2151,8 +2169,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>368</xloc>
-      <yloc>336</yloc>
+      <xloc>224</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2167,6 +2185,7 @@
       <method>none</method>
       <schema_name />
     </partitioning>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -2175,8 +2194,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>576</xloc>
-      <yloc>176</yloc>
+      <xloc>448</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2216,6 +2235,7 @@
       <file_required>N</file_required>
       <include_subfolders>N</include_subfolders>
     </file>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -2224,8 +2244,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>16</xloc>
-      <yloc>320</yloc>
+      <xloc>112</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2312,6 +2332,7 @@
         </conditions>
       </condition>
     </compare>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -2320,7 +2341,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>880</xloc>
+      <xloc>672</xloc>
       <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2330,4 +2351,5 @@
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>
   <slave_transformation>N</slave_transformation>
+  <attributes />
 </transformation>
