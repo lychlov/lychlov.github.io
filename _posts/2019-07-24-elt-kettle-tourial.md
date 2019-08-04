@@ -6,10 +6,9 @@ categories: ETL,Kettle
 comments: true
 ---
 # ETL工具——Kettle（PDI）基础知识和网络运维实战工具
+![etl-intro](/assets/kettle/etl-intro.png)
 
 ## ETL概念
-
-![etl-intro](/assets/kettle/etl-intro.png)
 
 ETL——是英文 Extract-Transform-Load 的缩写，用来描述将数据从来源端经过抽取（extract）、清洗（clean)、转换（transform）、加载（load）至目的端的过程。
 
@@ -40,16 +39,10 @@ ETL负责将分布的、异构数据源中的数据如关系数据、平面数�
 ![Kettle](https://community.hitachivantara.com/servlet/JiveServlet/showImage/102-1009855-24-19581/CommunityDataIntegration%28Trans%29.png)
 
 Kettle（PDI）是常用的ETL工具之一，纯Java编写的开源工具，绿色免安装，可以在Window、Linux、Unix上运行，数据抽取高效稳定。
+
+在2006年 Kettle 加入了开源的 BI 组织 Pentaho，英文全称为Pentaho Data Integeration。
+
 Kettle中文直译为水壶，该项目的主程序员MATT 希望把各种数据放到一个水壶里，然后以一种指定的格式流出。
-* spoon（勺子）：允许你通过图形界面来设计ETL逻辑（Transformation/Job）。
-* kitchen（厨房）：允许你批量运行任务 。Kitchen也是一个后台运行的程序。
-* pan（平底锅）：允许你批量运行由Spoon设计的ETL转换 。Pan是一个后台执行的程序，没有图形界面。
-* carte（菜单）：	Carte是一个轻量级的Web容器，用于建立专用、远程的ETL Server，集群运行。
-Kettle中有两种脚本文件，transformation和job
-* transformation完成针对数据的基础转换，
-好比工厂里的生产流水线，每个组件相当于一个员工；
-* job则完成整个工作流的控制，好比工厂里的管理。
-* 如果用记事本打开文件可发现转换和作业都是xml类型文件。
 
 [官方网址：https://community.hitachivantara.com/docs/DOC-1009855](https://community.hitachivantara.com/docs/DOC-1009855)
 
@@ -78,6 +71,14 @@ Kettle中有两种脚本文件，transformation和job
 ### 基本概念
 
 ![concept](/assets/kettle/concept.png)
+* Transformation（转换）：完成针对数据的基础转换，
+好比工厂里的生产流水线，每个组件相当于一个员工；
+* Job（作业）：成整个工作流的控制，好比工厂里的管理。
+* 如果用记事本打开文件可发现转换和作业都是xml类型文件。
+* Spoon（勺子）：允许你通过图形界面来设计ETL逻辑（Transformation/Job）。
+* Kitchen（厨房）：允许你批量运行Job 。Kitchen也是一个后台运行的程序，没有图形界面。
+* Pan（平底锅）：允许你批量运行Transformation。Pan是一个后台执行的程序，没有图形界面。
+* Carte（菜单）：	一个轻量级的Web容器，用于建立专用、远程的ETL Server，集群运行。
 
 #### Transformation（转换）
 Transformation（转换）是由一系列被称之为step（步骤）的逻辑工作通过hop（节点连接）连接的网络。
