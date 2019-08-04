@@ -6,15 +6,19 @@ categories: ETL,Kettle
 comments: true
 ---
 # ETL工具——Kettle（PDI）基础知识和网络运维实战工具
-![Kettle](https://community.hitachivantara.com/servlet/JiveServlet/showImage/102-1009855-24-19581/CommunityDataIntegration%28Trans%29.png)
 
 ## ETL概念
+
+![etl-intro](/assets/kettle/etl-intro.png)
+
 ETL——是英文 Extract-Transform-Load 的缩写，用来描述将数据从来源端经过抽取（extract）、清洗（clean)、转换（transform）、加载（load）至目的端的过程。
+
 通俗的说法就是从数据源抽取数据出来，进行清洗加工转换，然后加载到定义好的数据仓库模型中去。
 ETL负责将分布的、异构数据源中的数据如关系数据、平面数据文件等抽取到临时中间层后进行清洗、转换、集成，
 最后加载到数据仓库或数据集市中，成为联机分析处理、数据挖掘的基础。
+
 目的是将企业中的分散、零乱、标准不统一的数据整合到一起，为企业的决策提供分析依据。
-常用的三种工具（Datastage，Informatica，Kettle）！
+常用的三种工具（Datastage，Informatica，Kettle）。
 在网络运维中常常使用ETL工具作为数据采集工具。
 
 ## ETL的使用场景
@@ -33,6 +37,8 @@ ETL负责将分布的、异构数据源中的数据如关系数据、平面数�
 ![bi](/assets/kettle/mengbi.gif)
 
 ## Kettle介绍
+![Kettle](https://community.hitachivantara.com/servlet/JiveServlet/showImage/102-1009855-24-19581/CommunityDataIntegration%28Trans%29.png)
+
 Kettle（PDI）是常用的ETL工具之一，纯Java编写的开源工具，绿色免安装，可以在Window、Linux、Unix上运行，数据抽取高效稳定。
 Kettle中文直译为水壶，该项目的主程序员MATT 希望把各种数据放到一个水壶里，然后以一种指定的格式流出。
 * spoon（勺子）：允许你通过图形界面来设计ETL逻辑（Transformation/Job）。
@@ -49,6 +55,7 @@ Kettle中有两种脚本文件，transformation和job
 
 ### Kettle特性
 >"免费开源的基于java的企业级ETL工具，功能强大简单易用，无可抗拒"
+
 * 免费开源：基于java的免费开源的软件，对商业用户也没有限制
 * 易配置：可以在Window、Linux、Unix上运行，绿色无需安装，数据抽取高效稳定
 * 异构数据源：ETL工具集，它允许你管理来自不同数据库、不同的数据
