@@ -253,8 +253,8 @@ Kettle在网络运维的使用场景非常广泛，涉及到数据采集的都�
 #### 任务描述
 在课程资料中包含部分XDR原始文件，请使用Kettle对文件进行处理
 - 获取XDR文件并解压
-- 对XDR文件进行过滤，过滤条件：domin字段包含baidu.com或qq.com
-- 裁剪字段，保留字段：city\domin\url\type
+- 对XDR文件进行过滤，过滤条件：domain字段包含baidu.com或qq.com
+- 裁剪字段，保留字段：city\domain\url\type
 - 每个输出文件保存300000行
 - 文件存储，文件名要求：s1u_http_日期_时间_分段.csv
 
