@@ -199,6 +199,8 @@ Scrum框架包括3个角色、3个工件、5个事件、5个价值：
 
 #### 栈和队列
 ![stack-queue](/assets/L1/stack-queue.png)
+- 栈：后进先出（LIFO-last in first out）:最后插入的元素最先出来。
+- 队列：先进先出（FIFO-first in first out）:最先插入的元素最先出来。
 
 
 
