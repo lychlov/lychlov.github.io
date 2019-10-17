@@ -189,10 +189,16 @@ Scrum框架包括3个角色、3个工件、5个事件、5个价值：
 - 中序遍历：HDIBJEAFCG
 - 后序遍历：HIDJEBFGCA
 - 层次遍历：ABCDEFGHIJ
+#### 线性表
+线性表，全名为线性存储结构。使用线性表存储数据的方式可以这样理解，即“把所有数据用一根线儿串起来，再存储到物理空间中”。
+![linear](http://c.biancheng.net/uploads/allimg/190426/1G0425554-2.gif)
+- 顺序存储结构
+- 链式存储结构
+![linked](http://c.biancheng.net/uploads/allimg/190426/1G4213X2-3.gif)
+
 
 #### 栈和队列
-![stack-queue](https://img2018.cnblogs.com/blog/1534783/201812/1534783-20181212143236150-1594812025.png)
-
+![stack-queue](/assets/L1/stack-queue.png)
 
 
 
