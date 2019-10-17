@@ -104,8 +104,7 @@ Scrum框架包括3个角色、3个工件、5个事件、5个价值：
 
 ### 排序算法
 
-![algorithm](https://img-blog.csdn.net/20180913191410473?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3JlYWxfbGlzYQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-
+![algorithm](/assets/L1/algorithm.png)
 1. 冒泡排序
 
 基本思想：两个数比较大小，较大的数下沉，较小的数冒起来。
@@ -162,13 +161,14 @@ Scrum框架包括3个角色、3个工件、5个事件、5个价值：
 此外，树的定义还需要强调以下两点：
 - 1）n>0时根结点是唯一的，不可能存在多个根结点，数据结构中的树只能有一个根结点。
 - 2）m>0时，子树的个数没有限制，但它们一定是互不相交的。
-![tree](https://upload-images.jianshu.io/upload_images/7043118-2c735a2733887dc3.png?imageMogr2/auto-orient/strip|imageView2/2/format/webp)
+
+![tree](/assets/L1/tree.png)
 
 #### 度
-![degree](https://upload-images.jianshu.io/upload_images/7043118-cfa7c45bb8f1e332.png?imageMogr2/auto-orient/strip|imageView2/2/w/535/format/webp)
+![degree](/assets/L1/degree.png)
 
 #### 层次
-![level](https://upload-images.jianshu.io/upload_images/7043118-7c9318a6f5c1349d.png?imageMogr2/auto-orient/strip|imageView2/2/w/652/format/webp)
+![level](/assets/L1/level.png)
 
 #### 满二叉树
 在一棵二叉树中。如果所有分支结点都存在左子树和右子树，并且所有叶子都在同一层上，这样的二叉树称为满二叉树。
@@ -176,14 +176,14 @@ Scrum框架包括3个角色、3个工件、5个事件、5个价值：
 - 1）叶子只能出现在最下一层。出现在其它层就不可能达成平衡。
 - 2）非叶子结点的度一定是2。
 - 3）在同样深度的二叉树中，满二叉树的结点个数最多，叶子数最多。
-![full-tree](https://upload-images.jianshu.io/upload_images/7043118-c7a557dda4ffc7da.png?imageMogr2/auto-orient/strip|imageView2/2/w/392/format/webp)
+![full-tree](/assets/L1/full-tree.png)
 
 #### 完全二叉树
 对一颗具有n个结点的二叉树按层编号，如果编号为i(1<=i<=n)的结点与同样深度的满二叉树中编号为i的结点在二叉树中位置完全相同，则这棵二叉树称为完全二叉树。
-![total-tree](https://upload-images.jianshu.io/upload_images/7043118-132fd0379f34bcc1.png?imageMogr2/auto-orient/strip|imageView2/2/w/404/format/webp)
+![total-tree](/assets/L1/total-tree.png)
 
 #### 遍历方式
-![tree-example](https://upload-images.jianshu.io/upload_images/7043118-df454c0a574836de.png?imageMogr2/auto-orient/strip|imageView2/2/w/441/format/webp)
+![tree-example](/assets/L1/tree-example.png)
 
 - 前序遍历：ABDHIEJCFG
 - 中序遍历：HDIBJEAFCG
